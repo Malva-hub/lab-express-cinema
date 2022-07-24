@@ -1,8 +1,91 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin:0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; 
 }
 
 a {
   color: #00B7FF;
+}
+
+#div-index {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-image: url("/images/cinema.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+}
+
+#h1-index {
+  display: flex;
+  font-size: 100px;
+  color: white;
+  margin-right: 180px;
+}
+
+#button-index{
+  display: flex;
+  border-radius: 35px;
+  color: #00B7FF;
+  padding: 18px;
+  border-color: darkblue;
+  margin-right: 350px;
+  width: 250px;
+  font-size: 20px;
+}
+
+#list-movies{
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+}
+
+#movies-row{
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-left: 95px;
+}
+
+#div-movies{
+  margin-left: 80px;
+  padding: 10px;
+}
+
+#div-details{
+  display: flex;
+  flex-direction:row;
+  padding: 5px;
+}
+
+.p{
+  text-align: left;
+}
+
+#ul-details{
+  text-align: left;
+}
+
+#img-details{
+  margin:25px;
+}
+
+#description-details{
+  margin: 15px;
+  width: 400px;
+}
+
+#showtimes{
+  display: flex;
+  flex-direction: row;
+}
+
+#show-list{
+ display: flex;
 }
